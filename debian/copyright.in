@@ -33,9 +33,6 @@ Files: AUTHORS
  debian/watch
  lib/CMakeLists.txt
  src/CMakeLists.txt
- src/datastructs.h
- src/platform.c
- src/platform.h
  tests/CMakeLists.txt
  tests/autopilot/test.sh
  tests/autopilot/tests/test_gedit.py
@@ -47,6 +44,24 @@ Files: AUTHORS
  tests/demos/unity-gtk-menu-tester.c
 Copyright: NONE
 License: UNKNOWN
+ FIXME
+
+Files: src/appmenu-gtk-module.c
+ src/blacklist.c
+ src/blacklist.h
+ src/consts.h
+ src/datastructs-private.h
+ src/datastructs.c
+ src/datastructs.h
+ src/hijack.c
+ src/hijack.h
+ src/platform.c
+ src/platform.h
+ src/support.c
+ src/support.h
+Copyright: 2012, Canonical Ltd.
+  2015-2017, Konstantin Pugin <ria.freelander@gmail.com>
+License: LGPL (v3 or later)
  FIXME
 
 Files: lib/appmenu-gtk-action-group.h
@@ -62,7 +77,6 @@ Files: lib/appmenu-gtk-action-group.h
  lib/unity-gtk-menu-section.c
  lib/unity-gtk-menu-shell-private.h
  lib/unity-gtk-menu-shell.c
- src/main.c
 Copyright: 2012, Canonical Ltd.
 License: LGPL (v3)
  FIXME
