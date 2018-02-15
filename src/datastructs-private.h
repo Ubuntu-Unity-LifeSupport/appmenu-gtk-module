@@ -30,7 +30,8 @@
 
 struct _WindowData
 {
-	guint window_id;
+	uint window_id;
+	ulong wayland_window_id;
 	GMenu *menu_model;
 	guint menu_model_export_id;
 	GSList *menus;
