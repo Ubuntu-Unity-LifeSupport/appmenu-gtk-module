@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: appmenu-gtk-module
 Upstream-Contact: Konstantin aka rilian-la-te (https://github.com/rilian-la-te/vala-panel-appmenu/issues/)
 Source: https://github.com/rilian-la-te/vala-panel-appmenu/tree/master/subprojects/appmenu-gtk-module

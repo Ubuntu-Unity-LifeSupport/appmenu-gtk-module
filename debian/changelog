@@ -1,3 +1,16 @@
+appmenu-gtk-module (0.6.94-1) unstable; urgency=medium
+
+  [ Martin Wimpress ]
+  * New upstream release.
+  * debian/copyright:
+    + Use secure URI for copyright format.
+
+  [ Mike Gabriel ]
+  * debian/control:
+    + Bump versioned B-Ds accordings to upstream's README.md file.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 29 Mar 2018 21:52:31 +0200
+
 appmenu-gtk-module (0.6.92-1) unstable; urgency=medium
 
   [ Martin Wimpress ]
