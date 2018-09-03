@@ -7,6 +7,7 @@ Files: AUTHORS
  CMakeLists.txt
  README.md
  TODO
+ cmake/FallbackVersion.cmake
  cmake/GLibProgramHandlers.cmake
  data/CMakeLists.txt
  data/appmenu-gtk-module.service.in

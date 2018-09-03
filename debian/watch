@@ -1,3 +1,2 @@
 version=3
-opts=downloadurlmangle=s/archive\/?([\d\.]+).tar.gz/releases\/download\/$1\/appmenu-gtk-module.tar.xz/g \
-https://github.com/rilian-la-te/vala-panel-appmenu/tags .*/archive/v?([\d\.]+).tar.gz
+https://gitlab.com/vala-panel-project/vala-panel-appmenu/tags .*/uploads/.*/appmenu-gtk-module-?([\d\.]+)\.tar\.xz

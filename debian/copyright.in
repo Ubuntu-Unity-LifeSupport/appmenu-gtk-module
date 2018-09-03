@@ -8,6 +8,7 @@ Files: AUTHORS
  CMakeLists.txt
  README.md
  TODO
+ cmake/FallbackVersion.cmake
  cmake/GLibProgramHandlers.cmake
  data/CMakeLists.txt
  data/appmenu-gtk-module.service.in
@@ -27,6 +28,7 @@ Files: AUTHORS
  debian/libappmenu-gtk3-parser-dev.install
  debian/libappmenu-gtk3-parser0.install
  debian/libappmenu-gtk3-parser0.symbols
+ debian/patches/README
  debian/rules
  debian/source/format
  debian/watch
@@ -101,7 +103,7 @@ License: BSD (2 clause)
  FIXME
 
 Files: debian/changelog
-Copyright: attributions.
+Copyright: format.
 License: GENERATED FILE
  FIXME
 

@@ -43,6 +43,7 @@ static const char *const BLACKLIST[] = { "acroread",
 	                                 "mate-indicator-applet",
 	                                 "mate-indicator-applet-appmenu",
 	                                 "mate-indicator-applet-complete",
+	                                 "appmenu-mate",
 	                                 NULL };
 
 static bool is_string_in_array(const char *string, GVariant *array)
@@ -50,8 +51,8 @@ static bool is_string_in_array(const char *string, GVariant *array)
 	GVariantIter iter;
 	const char *element;
 
-	g_return_val_if_fail(array != NULL, FALSE);
-	g_return_val_if_fail(g_variant_is_of_type(array, G_VARIANT_TYPE("as")), FALSE);
+	g_return_val_if_fail(array != NULL, false);
+	g_return_val_if_fail(g_variant_is_of_type(array, G_VARIANT_TYPE("as")), false);
 
 	g_variant_iter_init(&iter, array);
 	while (g_variant_iter_loop(&iter, "&s", &element))

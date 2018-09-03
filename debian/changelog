@@ -1,3 +1,17 @@
+appmenu-gtk-module (0.7.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    + Update Vcs-*: fields. Packaging Git has been migrated to salsa.debian.org.
+    + Bump Standards-Version: to 4.2.1. No changes needed.
+  * debian/watch:
+    + Adapt to new upstream release scheme.
+  * debian/copyright:
+    + Update auto-generated copyright.in file.
+    + Update copyright attributions.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 03 Sep 2018 10:18:15 +0200
+
 appmenu-gtk-module (0.6.94-1) unstable; urgency=medium
 
   [ Martin Wimpress ]
