@@ -13,14 +13,24 @@ Files: AUTHORS
  data/appmenu-gtk-module.service.in
  data/appmenu-gtk2-parser.pc.in
  data/appmenu-gtk3-parser.pc.in
+ data/meson.build
  data/org.appmenu.gtk-module.gschema.xml
  docs/CMakeLists.txt
  docs/appmenu-gtk-parser-docs.sgml
+ docs/appmenu-gtk-parser-sections.txt
+ docs/appmenu-gtk-parser.types
  docs/gtkdocentities.ent.in
+ docs/meson.build
+ src/gtk-2.0/meson.build
+ src/gtk-3.0/meson.build
  lib/CMakeLists.txt
+ lib/meson.build
+ meson.build
+ meson_options.txt
  src/CMakeLists.txt
  src/datastructs.c
  src/datastructs.h
+ src/meson.build
  tests/CMakeLists.txt
  tests/autopilot/tests/__init__.py
  tests/autopilot/test.sh
@@ -31,6 +41,7 @@ Files: AUTHORS
  tests/demos/hello.c
  tests/demos/test-radio.c
  tests/demos/unity-gtk-menu-tester.c
+ tests/meson.build
 Copyright: 2012, Canonical Ltd.
 License: LGPL-3
 Comment:

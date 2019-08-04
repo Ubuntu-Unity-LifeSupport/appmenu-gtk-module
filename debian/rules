@@ -1,17 +1,21 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
 
+NULL =
+
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
 export DPKG_GENSYMBOLS_CHECK_LEVEL = 4
+
+DHFLAGS=--buildsystem=meson
 
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 DPKG_EXPORT_BUILDFLAGS = 1
 include /usr/share/dpkg/buildflags.mk
 
 %:
-	dh $@
+	dh $@ $(DHFLAGS)
 
 override_dh_shlibdeps:
 	dh_shlibdeps -- -xlibgtk2.0-0

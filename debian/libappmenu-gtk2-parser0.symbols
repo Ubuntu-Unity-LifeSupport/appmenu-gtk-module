@@ -1,4 +1,5 @@
 libappmenu-gtk2-parser.so.0 libappmenu-gtk2-parser0 #MINVER#
+* Build-Depends-Package: libappmenu-gtk2-parser-dev
  menu_shell_quark@Base 0.5.5
  unity_gtk_action_group_connect_shell@Base 0.5.5
  unity_gtk_action_group_disconnect_shell@Base 0.5.5

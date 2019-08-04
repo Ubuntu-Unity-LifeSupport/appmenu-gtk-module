@@ -1,3 +1,21 @@
+appmenu-gtk-module (0.7.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/{control,rules}:
+    + Switch to 'meson' build-system.
+  * debian/control:
+    + Bump Standards-Version: to 4.4.0. No changes needed.
+  * debian/{control,compat}:
+    + Switch to debhelper-compat notation. Bump to DH compat level version 12.
+  * debian/copyright:
+    + Update copyright attributions.
+  * debian/*.symbols:
+    + Add Build-Depends-Package: meta information field.
+  * debian/rules:
+    + Fix file-references-package-build-path for all build-resulting .so files.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 04 Aug 2019 22:04:46 +0200
+
 appmenu-gtk-module (0.7.1-1) unstable; urgency=medium
 
   * New upstream release.
