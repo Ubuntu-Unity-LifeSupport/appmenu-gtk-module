@@ -1,3 +1,14 @@
+appmenu-gtk-module (0.7.3-2) unstable; urgency=medium
+
+  * debian/control:
+    + Add B-D: gtk-doc-tools. (Closes: #952268).
+    + Bump Standards-Version: to 4.5.0. No changes needed.
+    + Add Rules-Requires-Root: field and set it to 'no'.
+  * debian/upstream/metadata:
+    + Add file. Comply with DEP-12.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 24 Feb 2020 08:37:36 +0100
+
 appmenu-gtk-module (0.7.3-1) unstable; urgency=medium
 
   * New upstream release.
