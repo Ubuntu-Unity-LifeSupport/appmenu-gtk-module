@@ -1,3 +1,13 @@
+appmenu-gtk-module (0.7.3.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    + Bump DH compat level to version 13.
+  * debian/rules:
+    + Drop unwanted doc files before wrapping up packages.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 23 Aug 2020 21:16:26 +0200
+
 appmenu-gtk-module (0.7.3-2) unstable; urgency=medium
 
   * debian/control:
