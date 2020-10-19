@@ -4,18 +4,13 @@ Upstream-Contact: Konstantin aka rilian-la-te (https://github.com/rilian-la-te/v
 Source: https://github.com/rilian-la-te/vala-panel-appmenu/tree/master/subprojects/appmenu-gtk-module
 
 Files: AUTHORS
- CMakeLists.txt
  README.md
  TODO
- cmake/FallbackVersion.cmake
- cmake/GLibProgramHandlers.cmake
- data/CMakeLists.txt
  data/appmenu-gtk-module.service.in
  data/appmenu-gtk2-parser.pc.in
  data/appmenu-gtk3-parser.pc.in
  data/meson.build
  data/org.appmenu.gtk-module.gschema.xml
- docs/CMakeLists.txt
  docs/appmenu-gtk-parser-docs.sgml
  docs/appmenu-gtk-parser-sections.txt
  docs/appmenu-gtk-parser.types
@@ -23,19 +18,15 @@ Files: AUTHORS
  docs/meson.build
  src/gtk-2.0/meson.build
  src/gtk-3.0/meson.build
- lib/CMakeLists.txt
  lib/meson.build
  meson.build
  meson_options.txt
- src/CMakeLists.txt
  src/datastructs.c
  src/datastructs.h
  src/meson.build
- tests/CMakeLists.txt
  tests/autopilot/tests/__init__.py
  tests/autopilot/test.sh
  tests/autopilot/tests/test_gedit.py
- tests/demos/CMakeLists.txt
  tests/demos/black.vala
  tests/demos/client.c
  tests/demos/hello.c
@@ -94,12 +85,6 @@ License: LGPL-3
 Comment:
  Using license as found in COPYING file.
 
-Files: cmake/FindGLIB2.cmake
- cmake/FindGTK.cmake
-Copyright: 2012, Raphael Kubo da Costa <rakuco@webkit.org>
-  2018, Konstantin Pugin <ria.freelander@gmail.com>
-License: BSD-2-clause
-
 Files: tests/autopilot/__init__.py
 Copyright: 2013, Canonical
 License: LGPL-3
@@ -138,27 +123,3 @@ License: LGPL-3+
   .
  On Debian systems, the complete text of the GNU Lesser General
  Public License can be found in "/usr/share/common-licenses/LGPL-3".
-
-License: BSD-2-clause
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions are met:
- .
- Redistributions of source code must retain the above copyright notice, this
- list of conditions and the following disclaimer.
- .
- Redistributions in binary form must reproduce the above copyright notice, this
- list of conditions and the following disclaimer in the documentation and/or
- other materials provided with the distribution. Neither the name of the author
- nor the names of its contributors may be used to endorse or promote products
- derived from this software without specific prior written permission.
- .
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
- ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
- WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
- DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
- FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
- DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
- SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
- CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
- OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
