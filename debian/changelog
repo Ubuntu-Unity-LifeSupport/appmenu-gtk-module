@@ -1,3 +1,10 @@
+appmenu-gtk-module (0.7.6-2) unstable; urgency=medium
+
+  * debian/watch:
+    + Fix broken watch file; possibly due to changes in gitlab.com.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 04 Feb 2021 00:53:31 +0100
+
 appmenu-gtk-module (0.7.6-1) unstable; urgency=medium
 
   * New upstream release.
