@@ -1,3 +1,23 @@
+appmenu-gtk-module (0.7.6-3) unstable; urgency=medium
+
+  [ Logan Rosen ]
+  * debian/control:
+    + Fix Vcs-Browser URL
+
+  [ Mike Gabriel ]
+  * debian/control:
+    + Drop exlicit/versioned D on libgtk-dev from bin:pkg libappmenu-gtk3-
+      parser0. (Closes: #1068222).
+  * debian/copyright:
+    + Fix duplicate entries.
+    + Update copyright attribution for debian/.
+  * debian/control:
+    + Bump Standards-Version: to 4.6.2. No changes needed.
+  * debian/watch:
+    + Switch to format version 4.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 02 Apr 2024 17:23:46 +0200
+
 appmenu-gtk-module (0.7.6-2) unstable; urgency=medium
 
   * debian/watch:

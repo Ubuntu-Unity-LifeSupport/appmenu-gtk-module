@@ -21,8 +21,6 @@ Files: AUTHORS
  lib/meson.build
  meson.build
  meson_options.txt
- src/datastructs.c
- src/datastructs.h
  src/meson.build
  tests/autopilot/tests/__init__.py
  tests/autopilot/test.sh
@@ -93,7 +91,7 @@ Comment:
 
 Files: debian/*
 Copyright: 2011-2013, Canonical Ltd.
-  2017, Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+  2017-2024, Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
 License: LGPL-3
 
 License: LGPL-3
