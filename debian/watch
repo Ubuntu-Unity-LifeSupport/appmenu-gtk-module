@@ -1,2 +1,4 @@
 version=4
-https://gitlab.com/vala-panel-project/vala-panel-appmenu/-/tags/?([\d\.]+) .*/uploads/.*/appmenu-gtk-module-?([\d\.]+)\.tar\.xz
+opts="searchmode=plain,downloadurlmangle=s!uploads!vala-panel-project/vala-panel-appmenu/uploads!" \
+ https://gitlab.com/api/v4/projects/vala-panel-project%2Fvala-panel-appmenu/releases \
+ /uploads/[0-9a-f]+/appmenu-gtk-module-?([\d\.]+)\.tar\.xz

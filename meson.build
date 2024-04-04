@@ -1,6 +1,6 @@
 project('appmenu-gtk-module', 'c',
-	meson_version: '>=0.49.0',
-	version: '0.7',
+	meson_version: '>=0.61.0',
+	version: '24.02',
 	license: ['LGPL-3.0-or-later'],
     default_options: [
         'c_std=gnu11',
@@ -50,11 +50,11 @@ build_gtk3 = gtk3.found()
 
 readmes = [
     'README.md',
-    'LICENSE',
     'TODO',
     'AUTHORS'
 ]
-install_data(readmes, install_dir : join_paths(get_option('datadir'), meson.project_name(), 'doc'))
+install_data(readmes, install_dir : join_paths(get_option('datadir'), 'doc', meson.project_name()))
+install_data('LICENSE', install_dir : join_paths(get_option('datadir'), 'licenses', meson.project_name()))
 
 
 subdir('lib')

@@ -1,3 +1,15 @@
+appmenu-gtk-module (24.02-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/watch:
+    + Rewrite watch URL regexp-hack. Big thanks to Fay Stegerman!!!
+  * debian/rules:
+    + Move doc files into bin:pkg appmenu-gtk3-module.
+  * debian/patches:
+    + Add 1001_fix-soversion.patch.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 04 Apr 2024 23:35:45 +0200
+
 appmenu-gtk-module (0.7.6-3) unstable; urgency=medium
 
   [ Logan Rosen ]
@@ -6,7 +18,7 @@ appmenu-gtk-module (0.7.6-3) unstable; urgency=medium
 
   [ Mike Gabriel ]
   * debian/control:
-    + Drop exlicit/versioned D on libgtk-dev from bin:pkg libappmenu-gtk3-
+    + Drop exlicit/versioned D on libgtk-3-0 from bin:pkg libappmenu-gtk3-
       parser0. (Closes: #1068222).
   * debian/copyright:
     + Fix duplicate entries.
