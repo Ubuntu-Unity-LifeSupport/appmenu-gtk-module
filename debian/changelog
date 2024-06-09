@@ -1,3 +1,12 @@
+appmenu-gtk-module (24.05-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    + Add to B-D: systemd-dev. (Closes: #1072593).
+    +Bump Standards-Version to 4.7.0. No changes needed.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 09 Jun 2024 22:31:12 +0200
+
 appmenu-gtk-module (24.02-1) unstable; urgency=medium
 
   * New upstream release.
