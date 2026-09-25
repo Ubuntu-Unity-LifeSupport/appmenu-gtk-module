@@ -1,3 +1,12 @@
+appmenu-gtk-module (25.04-1build1+unity1) resolute; urgency=medium
+
+  * debian/patches/2001_make-module-resident.patch: make the GTK module
+    resident (upstream a783b01c). GTK3 unloads a module loaded through the
+    gtk-modules setting when the setting changes, and the next GtkMenuBar
+    call or D-Bus callback jumped into unmapped code. (LP: #2166410)
+
+ -- Ubuntu Unity Life Support <mihail.rozshko@gmail.com>  Fri, 25 Sep 2026 00:05:00 +0000
+
 appmenu-gtk-module (25.04-1build1) resolute; urgency=medium
 
   * No-change mass rebuild for Ubuntu 26.04 (LP: #2132257)
